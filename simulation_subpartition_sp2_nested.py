@@ -63,7 +63,7 @@ def bh_mask(p, q):
 
 def run_nested_audit(
     seed=2026,
-    reps=5,  # ۵ تکرار برای تست اولیه
+    reps=500,  
     n=20,
     G=1000,
     B_max=2000,
