@@ -91,6 +91,15 @@ python real_data_audit.py
 
 All scripts use deterministic `numpy.random.default_rng` streams initialized with `seed = 2026` (via SHA-256 stream splitting in `sp1` and `sp3`) so that every replicate and table is reproducible across runs.
 
+
 ## License
 
-This code is released for academic and non-commercial research use (MIT License recommended).
+This code is provided for academic and non-commercial research purposes.
+
+If you use this code in your research, please cite the associated manuscript:
+
+**"Subpartition-Based Null Statistics for Heteroscedastic Multi-Group Testing: Validity, Pooling, and Stratification."**
+
+*Currently under peer review.*
+
+Commercial use requires prior permission from the author(s).
